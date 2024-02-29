@@ -96,15 +96,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -182,7 +179,6 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -229,7 +225,6 @@ Children:
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -241,10 +236,27 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+  - Name: Étiquette1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"Étiquette1"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 75.0
 - File: Screens/Screens.yaml

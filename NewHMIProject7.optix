@@ -6,7 +6,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.3
+ ProductVersion: 1.4
  CoreVersion: 3.0
  EncryptionVersion: 1
  EncryptionMode: Secrets
@@ -18,11 +18,11 @@ Project:
   3:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 11.0
+   Version: 12.4
   4:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 5.3
+   Version: 6.0
   5:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
@@ -32,10 +32,10 @@ Project:
    Module: FTOptix.Retentivity
    Version: 1.0
  Statistics:
-  TotalNodeCount: 120
-  Objects: 67
+  TotalNodeCount: 124
+  Objects: 68
   ObjectTypes: 1
-  Variables: 52
+  Variables: 55
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
